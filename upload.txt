@@ -1,0 +1,17 @@
+STEPS FOR GITHUB UPLOAD 
+
+// for pushing the backend code to github
+git remote -v
+git init
+git add -A
+git commit -m 'recapture route'
+git push -u -f origin main
+
+
+
+// for pushing the frontend code to github
+git remote -v
+git init
+git add -A
+git commit -m "consumed data from recapture api"
+git push -u -f origin main
