@@ -1,0 +1,17 @@
+STEPS FOR GITHUB UPLOAD 
+
+// for pushing the frontend code to github
+git remote -v
+git init
+git add -A
+git commit -m 'worked on hts page'
+git remote add origin git@https://github.com/MbesseyGodwin/nmrs-support.git
+git push -u -f origin main
+
+// for pushing the backend code to github
+git remote -v
+git init
+git add -A
+git commit -m "added htsdata route"
+git remote add origin https://github.com/MbesseyGodwin/nmrs-support-backend.git
+git push -u -f origin main
